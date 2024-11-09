@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">HL</div>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Blog</a></li>
+                <li><a href="/Post Public/Post Public.html">Public Posts </a></li>
+                <li><a href="/index.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="account/login.html" class="sign-in">Sign In</a>
+            <a href="account/register.html" class="sign-up">Sign Up</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="image-section">
+                <img src="images/YEVT3EX-600x300.jpg" alt="Tech Image" class="main-image" id="mainImage">
+            </div>
+            <div class="moving-bar">
+                <div class="info-section">
+                    <h2>HotView Labs</h2>
+                    <p><strong>Tech Research and Development</strong> </p>
+                    <p><strong>30 employees</strong> </p>
+                    <p><strong>Location:</strong> Worldwide</p>
+                    <p><strong>Provide the most accurate and up-to-date insights to tech leaders across the world</strong> .</p>
+                </div>
+            </div>
+
+        
+        <section class="icon-section">
+            <img src="images/2222.avif" alt="Icon 1">
+            <img src="images/2232.jpg" alt="Icon 2">
+            <img src="images/3333.jpg" alt="Icon 3">
+            <img src="images/ecommerce-bg.png" alt="Icon 4">
+        </section>
+        <section class="card-section">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+           
+
+        </section>
+        <section class="card-section" id="jokes-container">
+            
+        </section>
+
+        <section class="new-post">
+            <input type="text" id="postAuthor" placeholder="Enter your name">
+            
+            <div class="file-input-container">
+                <input type="file" id="postImage" accept="image/*" style="display:none;">
+                <button class="custom-file-btn" id="customFileBtn">Choose Image</button>
+                <span id="fileChosen">No file chosen</span>
+            </div>
+      
+            <div class="image-preview" id="imagePreview" style="display: none;">
+                <img src="" alt="Image Preview" id="previewImage">
+            </div>
+            
+            <textarea id="postContent" placeholder="Write your post here..."></textarea>
+            <button class="post-btn">Post</button>
+        </section>
+
+        <section class="post-list" id="postList">
+
+        </section>
+
+<section class="carousel-container">
+    <a href="Post Public/Post Public.html"><button id="nextBtn" class="carousel-nav">Next</button></a>
+</section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-icons">
+                <h3>Follow Us</h3>
+                <a href="#"><img src="/images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="/images/1690643640twitter-x-icon-png.webp" alt="Twitter"></a>
+                <a href="#"><img src="/images/linkedin-logo.png" alt="LinkedIn"></a>
+                <a href="#"><img src="/images/instagram.png" alt="Instagram"></a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    
+                    <li><a href="index.html">Blog</a></li>
+                    <li><a href="#">Privacy policy </a></li>
+                    <li><a href="index.html">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <form id="newsletterForm">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 HotView Labs. All rights reserved.</p>
+        </div>
+    </footer>
+
+<script src="main.js"></script>
+</body>
+</html>
