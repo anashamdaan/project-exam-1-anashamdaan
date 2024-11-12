@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<header>
+    <div class="logo">HL</div>
+    <nav>
+        <ul>
+            <li><a href="/index.html">Blog</a></li>
+            <li><a href="/post/index.html">Public Posts </a></li>
+            <li><a href="/index.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="auth-buttons">
+        <a href="/account/register.html" class="sign-up">register</a>
+    </div>
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</header>
+
+    <section class="login-container">
+        <div class="login-form">
+            <h2>Log In</h2>
+            <form id="loginForm">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                
+                <div class="remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Keep me logged in</label>
+                </div>
+                
+                <button type="submit">Log In</button>
+            </form>
+            <a href="#">Forgot password?</a>
+            <a href="register.html">Create Account</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-icons">
+                <h3>Follow Us</h3>
+                <a href="#"><img src="/images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="/images/1690643640twitter-x-icon-png.webp" alt="Twitter"></a>
+                <a href="#"><img src="/images/linkedin-logo.png" alt="LinkedIn"></a>
+                <a href="#"><img src="/images/instagram.png" alt="Instagram"></a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    
+                    <li><a href="index.html">Blog</a></li>
+                    <li><a href="#">Privacy policy </a></li>
+                    <li><a href="index.html">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <form id="newsletterForm">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 HotView Labs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="login.js"></script>
+</body>
+</html>

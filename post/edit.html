@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin Page</title>
+    <link rel="stylesheet" href="/post/edit.css">
+</head>
+<body>
+    <header>
+        <div class="logo">HL</div>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/post/index.html">Public Posts </a></li>
+                <li><a href="/index.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    
+    <body>
+        <section class="post-list" id="adminPostList">
+        </section>
+
+        <section class="edit-post" id="editPostSection" style="display:none;">
+            <h3>Edit Post</h3>
+            <input type="text" id="editPostAuthor" placeholder="Edit author name">
+            <textarea id="editPostContent" placeholder="Edit post content"></textarea>
+            <button class="save-edit-btn">Save Changes</button>
+        </section>
+
+        <section>
+            <h3>Registered Users</h3>
+            <table id="userTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="userList">
+                </tbody>
+            </table>
+        </section>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-icons">
+                    <h3>Follow Us</h3>
+                    <a href="#"><img src="/images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="/images/1690643640twitter-x-icon-png.webp" alt="Twitter"></a>
+                <a href="#"><img src="/images/linkedin-logo.png" alt="LinkedIn"></a>
+                <a href="#"><img src="/images/instagram.png" alt="Instagram"></a>
+                </div>
+    
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        
+                        <li><a href="index.html">Blog</a></li>
+                        <li><a href="#">Privacy policy </a></li>
+                        <li><a href="index.html">Contact</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+    
+            <div class="footer-bottom">
+                <p>&copy; 2024 HotView Labs. All rights reserved.</p>
+            </div>
+        </footer>
+    
+        <script src="/post/edit.js"></script>
+    </body>
+    </html>
