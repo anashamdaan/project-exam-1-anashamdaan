@@ -136,7 +136,7 @@ main {
     position: relative;
     left: 21em;
     top: 1em;
-    background-image: url('/images/Software\ Developer.jpg');
+    background-image: url('images/Software\ Developer.jpg');
     color: white;
     padding: 20px;
     width: 600px;

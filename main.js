@@ -7,8 +7,8 @@ hamburger.addEventListener('click', () => {
 
 
 const images = [
-    "/images/data-governance-blog-thumb-1230x692.jpeg",
-    "/images/data-governance-blog-thumb-1230x692.jpeg",
+    "images/data-governance-blog-thumb-1230x692.jpeg",
+    "images/data-governance-blog-thumb-1230x692.jpeg",
 ];
 
 let currentIndex = 0;
