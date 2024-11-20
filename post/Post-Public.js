@@ -6,7 +6,6 @@ hamburger.addEventListener('click', () => {
     header.classList.toggle('nav-open');
 });
 
-
 let posts = JSON.parse(localStorage.getItem('posts')) || [];
 
 function displayAllPosts() {
