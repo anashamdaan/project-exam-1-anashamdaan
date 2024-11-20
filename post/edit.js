@@ -16,7 +16,7 @@ function displayAdminPosts() {
     posts.forEach((post, index) => {
         const postElement = `
             <div class="post">
-                <img src="${post.image ? post.image : 'default-avatar.jpg'}" alt="Profile Picture" class="profile-pic">
+                <img src="${post.image ? post.image : '/images/2232.jpg'}" alt="Profile Picture" class="profile-pic">
                 <div class="post-content">
                     <h3>${post.author}</h3>
                     <p>${post.content}</p>
