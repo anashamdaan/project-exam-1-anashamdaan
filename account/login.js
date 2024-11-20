@@ -15,7 +15,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const adminPassword = '1234';
 
     if (email === adminEmail && password === adminPassword) {
-        window.location.href = '/post/edit.html';
+        window.location.href = 'http://127.0.0.1:5502/post/edit.html';
     } else {
         alert('Invalid email or password');
     }
