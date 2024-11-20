@@ -42,7 +42,7 @@ function displayLastPosts() {
 
         const postElement = `
             <div class="post">
-                <img src="/images/2232.jpg" alt="User Avatar" class="profile-pic">
+                <img src="${post.image ? post.image : 'default-avatar.jpg'}" alt="Profile Picture" class="profile-pic">
                 <div class="post-content">
                     <h3>${post.author}</h3>
                     <small>${post.date}</small>
