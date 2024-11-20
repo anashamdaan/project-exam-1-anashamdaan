@@ -15,7 +15,7 @@ function displayAllPosts() {
     posts.forEach(post => {
         const postElement = `
             <div class="post">
-                <img src="${post.image ? post.image : '../images/2232.jpg'}" alt="Profile Picture" class="profile-pic">
+                <img src="${post.image ? post.image : '/images/2232.jpg'}" alt="Profile Picture" class="profile-pic">
                 <div class="post-content">
                     <div class="post-header">
                         <h3 class="post-author">${post.author}</h3>
